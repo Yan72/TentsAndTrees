@@ -31,8 +31,14 @@ import fr.jeu.model.cellule.patternEtat.CelluleEtatVoid;
  */
 public class Cellule {
 	
+	/**
+	 * Coordonée x de la Cellule
+	 */
 	private int x;
 	
+	/**
+	 * Coordonnée y de la Cellule
+	 */
 	private int y;
 	
 	private CelluleEtat etat;

@@ -2,8 +2,8 @@ package fr.jeu.controller.modeJeu;
 
 import java.util.*;
 
-import fr.jeu.model.Grille;
 import fr.jeu.model.cellule.Cellule;
+import fr.jeu.model.grille.Grille;
 import fr.jeu.view.patternObservateur.Observable;
 import fr.jeu.view.patternObservateur.Observateur;
 

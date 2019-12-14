@@ -1,6 +1,6 @@
 package fr.jeu.controller.modeJeu;
 
-import fr.jeu.model.Grille;
+import fr.jeu.model.grille.Grille;
 import fr.jeu.view.patternObservateur.Observateur;
 import fr.outils.Outils;
 

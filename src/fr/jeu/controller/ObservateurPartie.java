@@ -1,9 +1,9 @@
 package fr.jeu.controller;
 
 import fr.jeu.controller.modeJeu.TentsAndTreesGame;
+import fr.jeu.model.grille.Grille;
 import fr.jeu.view.patternObservateur.Observateur;
 import fr.outils.Outils;
-import fr.jeu.model.Grille;
 
 /** 
  * <b>Classe représentant un observateur de partie.</b>

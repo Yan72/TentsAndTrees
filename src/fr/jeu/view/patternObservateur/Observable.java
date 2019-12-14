@@ -29,7 +29,7 @@ public interface Observable {
 	public void detacheObservateur(Observateur o);
 	
 	/**
-	 * Méthode notifiant tous les instances d'{@link Observateur Observateur} et les forcant à s'actualiser.
+	 * Méthode notifiant tous les {@link Observateur Observateur} et les forcant à s'actualiser.
 	 */
 	public void notifieObservateurs();
 }

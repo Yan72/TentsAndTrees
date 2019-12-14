@@ -12,9 +12,6 @@ public class Test {
 }
 
 /**
- * NOTE À MOI MÊME, PACKAGE GRILLE = MODÈLE, PACKAGE MODESDEJEU = CONTROLLEUR, PACKAGE INTERFACE = VUE 
- * LE RESTE, C LES PATTERNS
- * 
  * REMARQUE : UN OBSERVATEUR PEUT CONTENIR LE CONTROLLEUR POUR COMMUNIQUER AVEC LE MODÈLE
  */
  
@@ -26,6 +23,6 @@ public class Test {
  * 			 - mettre au clair sur qui utilise quelle classe à quel moment + autres
  */
 
-/**
+/**  
  * Note : Le git est fonctionnel
  */

@@ -1,9 +1,10 @@
-package fr.jeu.model;
+package fr.jeu.model.grille;
 
 import java.io.*;
 import java.util.Arrays;
 
 import fr.jeu.model.cellule.Cellule;
+import fr.jeu.model.indicateurs.TableauIndicateurs;
 
 /** 
  * <b>Classe représentant la grille de jeu.</b>
@@ -53,7 +54,6 @@ public class Grille {
 	 * Tableau de {@link Cellule Cellule} non modifiable par le joueur.
 	 * 
 	 * @see Cellule
-	 * 
 	 * @see Grille#getSolution()
 	 * @see Grille#setSolution(Cellule[][])
 	 */
@@ -61,13 +61,18 @@ public class Grille {
 	
 	/**
 	 * Tableau de nombre de tentes par colonnes.
+	 * 
+	 * <p>
+	 * Représente les nombres de tentes sur chaque colonnes
+	 * 
+	 * @see TableauIndicateurs
 	 */
-	private int[] nbTentesColonnes;
+	private TableauIndicateurs nbTentesColonnes;
 	
 	/**
 	 * Tableau de nombre de tentes par ligne.
 	 */
-	private int[] nbTentesLignes;
+	private TableauIndicateurs nbTentesLignes;
 	
 	/**
 	 * Taille de la grille.
@@ -189,18 +194,18 @@ public class Grille {
 	        
 	        jouable = new Cellule[tab.length - 3][tab.length - 3];
 			solution = new Cellule[tab.length - 3][tab.length - 3];
-	        nbTentesColonnes = new int[tab.length - 3];
-			nbTentesLignes = new int[tab.length - 3];
+	        nbTentesColonnes = new TableauIndicateurs(tab.length - 3);
+			nbTentesLignes = new TableauIndicateurs(tab.length - 3);
 			
-	        //On parcours ce tableau pour afficher les lignes de la grille les unes en dessous des autres, on fait en même temps le remplissage du tableau de nombres des lignes et des coonnes
+	        //On parcours ce tableau pour afficher les lignes de la grille les unes en dessous des autres, on fait en même temps le remplissage du tableau de nombres des lignes et des colonnes
 	        for (int i = 0; i < tab.length; i++)
 	        {
 	        	if (i < 2)
 	        		taille = Integer.parseInt(tab[i]);
 	        	else if (i < tab.length - 1)
 	        	{
-	        		nbTentesLignes[i-2] = Character.getNumericValue(tab[i].charAt(taille+1));
-	        		nbTentesColonnes[i-2] = Character.getNumericValue(tab[tab.length-1].charAt(i-2));
+	        		nbTentesLignes.setValTab(i-2, Character.getNumericValue(tab[i].charAt(taille+1)));
+	        		nbTentesColonnes.setValTab(i-2, Character.getNumericValue(tab[tab.length-1].charAt(i-2)));
 	        		
 	        		for (int j = 0; j < taille; j++)
 	        		{
@@ -252,11 +257,11 @@ public class Grille {
 	
 	@Override
 	public String toString() {
-		String s = "nbTentesColonnes=" + Arrays.toString(nbTentesColonnes) + ", nbTentesLignes=" + Arrays.toString(nbTentesLignes) + "\n";
+		String s = "nbTentesColonnes=" + Arrays.toString(nbTentesColonnes.getTab()) + ", nbTentesLignes=" + Arrays.toString(nbTentesLignes.getTab()) + "\n";
 		
 		s = s + "\n Jouable : \n  " + " | " ;
 		for (int i = 0; i < taille; i++) {
-			s = s + nbTentesColonnes[i] + " | " ;
+			s = s + nbTentesColonnes.getValTab(i) + " | " ;
 		}
 		s = s + "\n";
 		
@@ -265,7 +270,7 @@ public class Grille {
 		s = s + "\n";
 		
 		for (int i = 0; i < taille; i++) {
-			s = s + " " + nbTentesLignes[i] + " | ";
+			s = s + " " + nbTentesLignes.getValTab(i) + " | ";
 			for (int j = 0; j < taille; j++) {
 				s = s + jouable[i][j] + " | ";
 			}

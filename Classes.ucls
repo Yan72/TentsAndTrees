@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="fr.jeu.controller.modeJeu.TentsAndTreesCompetition" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/controller/modeJeu/TentsAndTreesCompetition.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2995" y="1042"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="fr.jeu.view.patternObservateur.Observateur" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/view/patternObservateur/Observateur.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2609" y="891"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="fr.tentsandtrees.Test" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/tentsandtrees/Test.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2345" y="835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="fr.jeu.model.grille.Grille" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/model/grille/Grille.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3861" y="871"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="fr.jeu.controller.ObservateurPartie" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/controller/ObservateurPartie.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2731" y="1072"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="fr.jeu.controller.modeJeu.TentsAndTreesGame" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/controller/modeJeu/TentsAndTreesGame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="223" width="212" x="3053" y="590"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="fr.jeu.model.cellule.patternEtat.CelluleEtatHerbe" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/model/cellule/patternEtat/CelluleEtatHerbe.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2780" y="1426"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="fr.jeu.controller.patternCommande.CommandeHerbe" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/controller/patternCommande/CommandeHerbe.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4071" y="1175"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="fr.jeu.view.interfaces.TentsAndTreesUI" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/view/interfaces/TentsAndTreesUI.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2595" y="494"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="10" language="java" name="fr.jeu.model.cellule.patternEtat" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/model/cellule/patternEtat" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="198" x="391" y="381"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="11" language="java" name="fr.jeu.controller.patternCommande.CommandeTente" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/controller/patternCommande/CommandeTente.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4258" y="1173"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="fr.jeu.model.indicateurs.TableauIndicateurs" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/model/indicateurs/TableauIndicateurs.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3583" y="1203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="13" language="java" name="fr.jeu.controller.modeJeu" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/controller/modeJeu" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="167" x="629" y="381"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="14" language="java" name="fr.jeu.model.cellule.patternEtat.CelluleEtat" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/model/cellule/patternEtat/CelluleEtat.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3175" y="1733"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="15" language="java" name="fr.jeu.model.cellule.patternEtat.CelluleEtatVoid" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/model/cellule/patternEtat/CelluleEtatVoid.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2979" y="1426"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="fr.jeu.controller.modeJeu.TentsAndTreesClassique" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/controller/modeJeu/TentsAndTreesClassique.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3194" y="1043"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="17" language="java" name="fr.outils" project="Tents&amp;Trees" file="/Tents&amp;Trees/src/fr/outils" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="100" x="836" y="381"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="18" language="java" name="fr.jeu.model.cellule.patternEtat.CelluleEtatArbre" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/model/cellule/patternEtat/CelluleEtatArbre.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3177" y="1426"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="19" language="java" name="fr.jeu.view.patternObservateur.Observable" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/view/patternObservateur/Observable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3458" y="893"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="20" language="java" name="fr.jeu.model.cellule.Cellule" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/model/cellule/Cellule.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="295" width="122" x="3756" y="1134"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="21" language="java" name="fr.jeu.model.cellule" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/model/cellule" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="131" x="976" y="381"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="22" language="java" name="fr.jeu.view.interfaces.TentsAndTreesTerm" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/view/interfaces/TentsAndTreesTerm.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="133" width="188" x="3053" y="381"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="23" language="java" name="fr.jeu.view.patternObservateur" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/view/patternObservateur" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="198" x="1147" y="381"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="24" language="java" name="fr.tentsandtrees" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/tentsandtrees" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="116" x="1385" y="381"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="25" language="java" name="fr.jeu.model.grille" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/model/grille" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="122" x="1541" y="381"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="26" language="java" name="fr.jeu.controller.patternCommande" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/controller/patternCommande" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="221" x="1703" y="381"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="27" language="java" name="fr.jeu.controller.modeJeu.TentsAndTreesAventure" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/controller/modeJeu/TentsAndTreesAventure.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3397" y="1042"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="fr.jeu.controller.patternCommande.CommandeVoid" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/controller/patternCommande/CommandeVoid.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4448" y="1174"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="fr.jeu.model.cellule.patternEtat.CelluleEtatTente" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/model/cellule/patternEtat/CelluleEtatTente.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3376" y="1426"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="fr.outils.Outils" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/outils/Outils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2364" y="678"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="fr.jeu.controller.patternCommande.Commande" project="Tents&amp;Trees" 
+    file="/Tents&amp;Trees/src/fr/jeu/controller/patternCommande/Commande.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4260" y="866"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="32">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <generalization id="33">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="31"/>  
+  </generalization>  
+  <association id="34">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="35" name="cellule">        
+        <position height="17" width="39" x="3898" y="1199"/>      
+      </attribute>      
+      <multiplicity id="36" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="37">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="38" name="etat"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="40">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <realization id="41">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <association id="42">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="43" name="nbTentesColonnes">        
+        <position height="17" width="96" x="3551" y="1084"/>      
+      </attribute>      
+      <multiplicity id="44" minimum="0" maximum="1">        
+        <position height="15" width="23" x="3614" y="1103"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="45">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="31"/>  
+  </generalization>  
+  <realization id="46">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <realization id="47">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <association id="48">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="49" name="nbTentesLignes">        
+        <position height="17" width="82" x="3655" y="1109"/>      
+      </attribute>      
+      <multiplicity id="50" minimum="0" maximum="1">        
+        <position height="15" width="23" x="3678" y="1097"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="51">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <generalization id="52">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <association id="53">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="54" name="etat"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="56">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="57" name="observateurs">        
+        <position height="17" width="72" x="2674" y="825"/>      
+      </attribute>      
+      <multiplicity id="58" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="59">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="60" name="solution">        
+        <position height="17" width="44" x="3769" y="1096"/>      
+      </attribute>      
+      <multiplicity id="61" minimum="0" maximum="2147483647">        
+        <position height="15" width="21" x="3844" y="1098"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="62">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <generalization id="63">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="31"/>  
+  </generalization>  
+  <association id="64">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="65" name="jouable">        
+        <position height="17" width="42" x="3847" y="1112"/>      
+      </attribute>      
+      <multiplicity id="66" minimum="0" maximum="2147483647">        
+        <position height="15" width="21" x="3784" y="1115"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="67">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="68" name="etat"/>      
+      <multiplicity id="69" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="70">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="71" name="grille"/>      
+      <multiplicity id="72" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="73">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="74" name="etat"/>      
+      <multiplicity id="75" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="76">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="77" name="etat"/>      
+      <multiplicity id="78" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="79">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <association id="80">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="81" name="jeu"/>      
+      <multiplicity id="82" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="83">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="84" name="jeu">        
+        <position height="17" width="22" x="2997" y="612"/>      
+      </attribute>      
+      <multiplicity id="85" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="86">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <generalization id="87">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

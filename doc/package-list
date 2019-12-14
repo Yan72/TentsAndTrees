@@ -1,9 +1,10 @@
 fr.jeu.controller
 fr.jeu.controller.modeJeu
 fr.jeu.controller.patternCommande
-fr.jeu.model
 fr.jeu.model.cellule
 fr.jeu.model.cellule.patternEtat
+fr.jeu.model.grille
+fr.jeu.model.indicateurs
 fr.jeu.view.interfaces
 fr.jeu.view.patternObservateur
 fr.outils
