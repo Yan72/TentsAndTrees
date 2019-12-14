@@ -33,7 +33,7 @@ public class TableauIndicateurs {
 
 	/**
 	 * Constructeur de {@link TableauIndicateurs TableauIndicateurs}.
-	 * Initialise le tableau d'entiers avec sa taille.
+	 * Initialise le tableau d'entiers avec sa taille. 
 	 * @param taille Taille du tableau à créer, égale à la taille de la grille.
 	 */
 	public TableauIndicateurs(int taille) {
