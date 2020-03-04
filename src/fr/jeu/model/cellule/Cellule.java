@@ -22,7 +22,7 @@ import fr.jeu.model.cellule.patternEtat.CelluleEtatVoid;
  * <li>se créer</li>
  * <li>placer une herbe</li>
  * <li>placer une tente</li>
- * <li>passer la case à vide (void)</li>
+ * <li>passer la case à vide (void)</li> 
  * <li>placer un arbre</li>
  * </ul>
  * 
@@ -32,12 +32,12 @@ import fr.jeu.model.cellule.patternEtat.CelluleEtatVoid;
 public class Cellule {
 	
 	/**
-	 * Coordonée x de la Cellule
+	 * Coordonée horizontale de la Cellule
 	 */
 	private int x;
 	
 	/**
-	 * Coordonnée y de la Cellule
+	 * Coordonnée verticale de la Cellule
 	 */
 	private int y;
 	

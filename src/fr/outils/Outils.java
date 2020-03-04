@@ -18,7 +18,7 @@ public class Outils {
 	public static int numLigne(String difficulte)
 	{
 		int maxLigne = (difficulte == "Difficile" ? 300 : 400);
-		return (int)(Math.random() * maxLigne);
+		return (int)(Math.random() * maxLigne + 1);
 	}
 	
 	/**

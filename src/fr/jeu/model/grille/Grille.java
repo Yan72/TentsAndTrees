@@ -1,8 +1,6 @@
 package fr.jeu.model.grille;
 
 import java.io.*;
-import java.util.Arrays;
-
 import fr.jeu.model.cellule.Cellule;
 import fr.jeu.model.indicateurs.TableauIndicateurs;
 
@@ -12,8 +10,8 @@ import fr.jeu.model.indicateurs.TableauIndicateurs;
  * <p>
  * Une grille est caractérisé par :
  * <ul>
- * <li>une matrice de cellule pemettant le jeu (accès en lecture et écriture)</li>
- * <li>une matrice contenant la solution de la grille étudiée (accès en lecture et écriture)</li>
+ * <li>une matrice de cellule pemettant le jeu (accès en lecture)</li>
+ * <li>une matrice contenant la solution de la grille étudiée (accès en lecture)</li>
  * <li>deux tableaux représentants les nombres indiqués en tête de ligne ou de colonne (nombre de tente à placer sur cette ligne ou colonne)</li>  
  * </ul>
  * 
@@ -105,15 +103,18 @@ public class Grille {
 	public Cellule[][] getJouable() {
 		return jouable;
 	}
-
+	
 	/**
-	 * Setter de jouable.
-	 * @param jouable L'instance à mettre dans jouable.
+	 * Getter d'une valeur de la grille jouable.
+	 * @param i Coordonnée horizontale de la Cellule à renvoyer.
+	 * @param j Coordonnée verticale de la Cellule à renvoyer.
+	 * @return Cellule à la position (i, j).
 	 * 
+	 * @see Cellule
 	 * @see Grille#jouable
 	 */
-	public void setJouable(Cellule[][] jouable) {
-		this.jouable = jouable;
+	public Cellule getJouableVal(int i, int j) {
+		return jouable[i][j];
 	}
 
 	/**
@@ -124,16 +125,6 @@ public class Grille {
 	 */
 	public Cellule[][] getSolution() {
 		return solution;
-	}
-
-	/**
-	 * Setter de solution.
-	 * @param solution L'instance à mettre dans solution.
-	 * 
-	 * @see Grille#solution
-	 */
-	public void setSolution(Cellule[][] solution) {
-		this.solution = solution;
 	}
 	
 	/**
@@ -147,13 +138,19 @@ public class Grille {
 	}
 	
 	/**
-	 * Setter de taille.
-	 * @param taille L'instance à mettre dans taille.
-	 * 
-	 * @see Grille#taille
+	 * Getter de nbTentesCignes.
+	 * @return Le tableau des nombres de tentes sur une les colonnes.
 	 */
-	public void setTaille(int taille) {
-		this.taille = taille;
+	public TableauIndicateurs getNbTentesColonnes() {
+		return nbTentesColonnes;
+	}
+
+	/**
+	 * Getter de nbTentesLignes.
+	 * @return Le tableau des nombres de tentes sur une les lignes.
+	 */
+	public TableauIndicateurs getNbTentesLignes() {
+		return nbTentesLignes;
 	}
 
 	/**
@@ -174,7 +171,9 @@ public class Grille {
 	{
 		taille = 0;
 		
-		File fichier = new File("./Ressources/Grilles" + difficulte + "s.txt");
+		String path = "Ressources" + File.separator + "Grilles" + difficulte + "s.txt";
+		
+		File fichier = new File(path);
 		FileInputStream fis;
 	    BufferedReader dis;
 	    
@@ -253,45 +252,5 @@ public class Grille {
 	    	  e.printStackTrace();
 	      }
 		
-	}
-	
-	@Override
-	public String toString() {
-		String s = "nbTentesColonnes=" + Arrays.toString(nbTentesColonnes.getTab()) + ", nbTentesLignes=" + Arrays.toString(nbTentesLignes.getTab()) + "\n";
-		
-		s = s + "\n Jouable : \n  " + " | " ;
-		for (int i = 0; i < taille; i++) {
-			s = s + nbTentesColonnes.getValTab(i) + " | " ;
-		}
-		s = s + "\n";
-		
-		for (int j = 0; j < taille * 2 + 2; j++)
-			s = s + "--";
-		s = s + "\n";
-		
-		for (int i = 0; i < taille; i++) {
-			s = s + " " + nbTentesLignes.getValTab(i) + " | ";
-			for (int j = 0; j < taille; j++) {
-				s = s + jouable[i][j] + " | ";
-			}
-			s = s + "\n";
-			for (int j = 0; j < taille * 2 + 2; j++)
-				s = s + "--";
-			s = s + "\n";
-		}
-		/*
-		s = s + "\n Solution : \n ";
-		for (int i = 0; i < taille; i++) {
-			s = s + nbTentesColonnes[i];
-		}
-		s = s + "\n";
-		for (int i = 0; i < taille; i++) {
-			s = s + nbTentesLignes[i];
-			for (int j = 0; j < taille; j++) {
-				s = s + solution[i][j];
-			}
-			s = s + "\n";
-		}*/
-		return s;
 	}
 }

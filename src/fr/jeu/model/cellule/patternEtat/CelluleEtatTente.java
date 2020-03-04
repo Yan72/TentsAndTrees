@@ -21,7 +21,7 @@ package fr.jeu.model.cellule.patternEtat;
  * <li>placer une herbe</li>
  * <li>placer une tente</li>
  * <li>passer la case à vide (void)</li>
- * </ul>
+ * </ul> 
  * 
  * @author Yann Paulmery
  * 

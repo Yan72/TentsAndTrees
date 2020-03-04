@@ -2,7 +2,6 @@ package fr.jeu.controller.modeJeu;
 
 import java.util.*;
 
-import fr.jeu.model.cellule.Cellule;
 import fr.jeu.model.grille.Grille;
 import fr.jeu.view.patternObservateur.Observable;
 import fr.jeu.view.patternObservateur.Observateur;
@@ -90,36 +89,6 @@ public class TentsAndTreesGame implements Observable {
 		this.grille = grille;
 	}
 
-	/**
-	 * Méthode permettant d'avoir la grille sur laquelle on joue.
-	 * @return Grille jouable.
-	 * 
-	 * @see Grille
-	 */
-	public Cellule[][] getGrilleJouable() {
-		return grille.getJouable();
-	}
-	
-	/**
-	 * Méthode permettant d'avoir la grille de solution.
-	 * @return Grille de solution.
-	 * 
-	 * @see Grille
-	 */
-	public Cellule[][] getGrilleSolution() {
-		return grille.getSolution();
-	}
-	
-	/**
-	 * Méthode permettant d'avoir la taille des grilles avec la méthode {@link Grille#getTaille() getTaille()}.
-	 * @return la taille du jeu.
-	 * 
-	 * @see Grille
-	 */
-	public int getTailleJeu()
-	{
-		return grille.getTaille();
-	}
 	
 	@Override
 	public void attacheObservateur(Observateur o) {

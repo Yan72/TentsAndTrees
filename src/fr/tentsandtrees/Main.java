@@ -2,19 +2,18 @@ package fr.tentsandtrees;
 
 import fr.jeu.view.interfaces.TentsAndTreesTerm;
 
-public class Test {
+public class Main {
 	
 	public static void main(String[] args)
 	{
 		TentsAndTreesTerm jeu = new TentsAndTreesTerm();
-		jeu .actualise();
+		jeu.actualise();
 	}
 }
 
 /**
  * REMARQUE : UN OBSERVATEUR PEUT CONTENIR LE CONTROLLEUR POUR COMMUNIQUER AVEC LE MODÈLE
  */
- 
 
 
 /**

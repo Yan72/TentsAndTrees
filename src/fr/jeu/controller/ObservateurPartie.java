@@ -21,7 +21,6 @@ import fr.outils.Outils;
  * <ul>
  * <li>se créer</li>
  * <li>accéder </li>
- * <li>se créer</li>
  * </ul>
  * 
  * <p>
@@ -92,12 +91,11 @@ public class ObservateurPartie implements Observateur {
 	 * @return <i>true</i> si les grilles sont identiques, <i>false</i> sinon. 
 	 * 
 	 * @see Grille
-	 * 
 	 * @see ObservateurPartie#jeu
 	 */
 	public boolean grilleTerminee()
 	{
-		return Outils.comparerGrilles(jeu.getGrilleJouable(), jeu.getGrilleSolution(), jeu.getTailleJeu());
+		return Outils.comparerGrilles(jeu.getGrille().getJouable(), jeu.getGrille().getSolution(), jeu.getGrille().getTaille());
 	}
 
 	@Override
